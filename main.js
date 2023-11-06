@@ -12,3 +12,14 @@ const student = {
     },
     aging: passingTime = (years) => student.age += years,
 }
+
+// Exercise 3
+
+window.addEventListener('load', ()=>{
+    const ex3 = document.getElementById('exercise-3');
+    ex3.innerText = 'This is the inner text after using JS';    
+    ex3.innerHTML += `<p></p>`;
+});
+
+// Exercise 4
+
