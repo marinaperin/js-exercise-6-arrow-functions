@@ -23,3 +23,15 @@ window.addEventListener('load', ()=>{
 
 // Exercise 4
 
+window.addEventListener('load', ()=>{
+    const lastLi = document.createElement('li');
+    lastLi.innerText = 'item 4';
+    const ul = document.getElementById('ul');
+    ul.appendChild(lastLi);
+    const item5 = document.createElement('li');
+    item5.innerText = 'item 5';
+    ul.insertBefore(item5, ul.children[0]);
+})
+
+// Exercise 5
+
